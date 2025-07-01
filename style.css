@@ -106,7 +106,7 @@ li a:hover {
     height: 100vh;
     margin: 0 auto;
     padding: 48px 0;
-    background: url('/assets/cover.png');
+    background: url('assets/cover.png');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -201,7 +201,7 @@ li a:hover {
 }
 
 .main-content {
-    background-image: url('/assets/cover2.png');
+    background-image: url('assets/cover2.png');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
