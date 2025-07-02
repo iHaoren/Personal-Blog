@@ -12,3 +12,4 @@ Dibuat pake:
 
 Masih sering gue utak-atik tampilannya, jadi kalau ada yang aneh-aneh harap maklum 😅
 Kalau lo nemu bug atau pengen kasih saran, feel free buat open issue atau pull request.
+link 👉  https://ihaoren.github.io/personal-blog/
