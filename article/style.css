@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* navbar */
+header {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: black;
+    width: 100%;
+    height: auto;
+    gap: 10px;
+    align-items: center;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
+    position: sticky;
+    font-family: helvetica;
+}
+
+.logo {
+    margin-right: auto;
+    margin-left: 10px;
+    cursor: pointer;
+    text-shadow: 3px 3px 3px black;
+}
+
+.logo a {
+    text-decoration: none;
+    color: lightyellow;
+    transition: all .3s ease 0s;
+}
+
+
+
+.logo a:hover {
+    color: lightgray;
+}
+
+ul {
+    display: flex;
+    padding: 18px;
+}
+
+li {
+    list-style-type: none;
+    padding: 10px;
+    text-shadow: 3px 3px 3px black;
+}
+
+li:hover {
+    transform: rotate(5deg);
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+}
+
+li a {
+    display: inline-block;
+    text-decoration: none;
+    color: lightyellow;
+    transition: all .3s ease 0s;
+    -webkit-transition: all .3s ease 0s;
+    -moz-transition: all .3s ease 0s;
+    -ms-transition: all .3s ease 0s;
+    -o-transition: all .3s ease 0s;
+}
+
+li a:hover {
+    color: lightgray;
+}
+
+.btn-cta {
+    display: flex;
+    background-color: crimson;
+    border-radius: 6px;
+    color: lightyellow;
+    cursor: pointer;
+    padding: 10px;
+    margin-right: 10px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    transition: all .3s ease 0s;
+    -webkit-transition: all .3s ease 0s;
+    -moz-transition: all .3s ease 0s;
+    -ms-transition: all .3s ease 0s;
+    -o-transition: all .3s ease 0s;
+}
+
+.btn-cta:hover {
+    color: black;
+    background-color: lightyellow;
+}
+/* navbar end */
+
+/* article */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 24px;
+}
+
+article {
+    display: block;
+    margin-top: 24px;
+}
